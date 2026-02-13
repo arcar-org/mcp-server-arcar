@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.arcar-org/mcp-server-arcar",
+  "name": "io.github.arcar-org/arcar-mcp",
   "displayName": "ArCar MCP Server",
   "vendor": "arcar.org",
   "sourceUrl": "https://github.com/arcar-org/mcp-server-arcar",
