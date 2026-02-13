@@ -15,10 +15,8 @@
   },
   "remotes": [
     {
-      "transport": {
-        "type": "sse",
-        "url": "https://nave.q2bot.com/mcp/arcar.org"
-      }
+      "type": "sse",
+      "url": "https://nave.q2bot.com/mcp/arcar.org"
     }
   ],
   "security": {
