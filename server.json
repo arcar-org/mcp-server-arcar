@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "id": "io.github.arcar-org/n8n-mcp-server",
+  "name": "ArCar MCP Server",
+  "vendor": "arcar.org",
+  "sourceUrl": "https://github.com/arcar-org/mcp-server-arcar",
+  "description": "Servidor MCP para integraciones con arcar.org",
+  "homepage": "https://www.arcar.org",
+  "version": "1.0.0",
+  "license": "MIT",
+  "capabilities": {
+    "resources": {},
+    "tools": {},
+    "prompts": {}
+  },
+  "remotes": [
+    {
+      "transport": {
+        "type": "sse",
+        "url": "https://nave.q2bot.com/mcp/arcar.org"
+      }
+    }
+  ],
+  "security": {
+    "requiresAuth": false
+  }
+}
