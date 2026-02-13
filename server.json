@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "id": "io.github.arcar-org/n8n-mcp-server",
-  "name": "ArCar MCP Server",
+  "name": "io.github.arcar-org/n8n-mcp-server",
+  "displayName": "ArCar MCP Server",
   "vendor": "arcar.org",
   "sourceUrl": "https://github.com/arcar-org/mcp-server-arcar",
   "description": "Servidor MCP para integraciones con arcar.org",
