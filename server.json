@@ -6,7 +6,7 @@
   "sourceUrl": "https://github.com/arcar-org/mcp-server-arcar",
   "description": "Servidor MCP para integraciones con arcar.org",
   "homepage": "https://www.arcar.org",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "capabilities": {
     "resources": {},
