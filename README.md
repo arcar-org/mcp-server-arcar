@@ -1,7 +1,7 @@
 # ArCar MCP Server
-Servidor oficial Model Context Protocol (MCP) para integracioones con **https://arcar.org**.
+Servidor oficial Model Context Protocol (MCP) para integraciones con **www.arcar.org**.
 
-Este MCP permite que agentes de IA y clientes compatibles puedan buscar y obtener información de vehículos publicados en https://arcar.org en tiempo real.
+Este MCP permite que agentes de IA y clientes compatibles puedan buscar y obtener información de vehículos publicados en www.arcar.org en tiempo real.
 
 ---
 
