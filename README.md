@@ -31,11 +31,6 @@ https://nave.q2bot.com/mcp/arcar-org
 
 ## 📦 Identificador en el MCP Registry
 
-
-
-
-Publicado en el registro oficial de MCP.
-
 ---
 
 ## 🧠 Casos de uso
