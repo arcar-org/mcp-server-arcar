@@ -30,3 +30,62 @@ https://nave.q2bot.com/mcp/arcar-org
 ---
 
 ## 📦 Identificador en el MCP Registry
+
+
+
+
+Publicado en el registro oficial de MCP.
+
+---
+
+## 🧠 Casos de uso
+
+Este servidor MCP permite:
+
+- Asistentes automotrices con IA
+- Agentes de búsqueda de vehículos
+- Integraciones con marketplaces
+- Herramientas de investigación automotriz
+- Experiencias conversacionales de búsqueda
+
+---
+
+## 🏗 Arquitectura
+
+- Base de datos: arcar.org
+- Transporte: Server-Sent Events (SSE)
+- Protocolo: Model Context Protocol (MCP)
+- Versionado mediante MCP Registry
+
+---
+
+## 🔐 Seguridad
+
+Actualmente el acceso es público.
+
+En futuras versiones se podrá incorporar:
+
+- Limitación de tasa (rate limiting)
+- Autenticación
+- Claves de acceso
+
+---
+
+## 📌 Versionado
+
+Se utiliza versionado semántico:
+
+- 1.0.0 → Publicación inicial
+- 1.0.2 → Publicación inicial con mejoras
+
+---
+
+## 🌍 Sitio web
+
+https://www.arcar.org
+
+---
+
+## 📄 Licencia
+
+MIT License
