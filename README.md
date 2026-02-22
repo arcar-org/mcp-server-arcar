@@ -1,77 +1,50 @@
-# ArCar MCP Server
-Servidor oficial Model Context Protocol (MCP) para integraciones con **www.arcar.org**.
+# 🚗 ArCar MCP Server
 
-Este MCP permite que agentes de IA y clientes compatibles puedan buscar y obtener información de vehículos publicados en www.arcar.org en tiempo real.
+Servidor MCP oficial para integraciones con arcar.org.
 
----
-
-## 🔎 Funcionalidad principal
-
-### Búsqueda
-
-Permite buscar vehículos publicados en arcar.org aplicando filtros como:
-
-- Marca
-- Modelo
-- Año
-- Rango de precio
-- Ubicación
-
-Devuelve resultados estructurados optimizados para consumo por asistentes de IA.
-
----
-
-## 🌐 Endpoint remoto
-
-Transporte SSE:
-
-https://nave.q2bot.com/mcp/arcar-org
+Permite realizar búsquedas de vehículos publicados en la plataforma mediante herramientas compatibles con Model Context Protocol (MCP).
 
 ---
 
 ## 📦 Identificador en el MCP Registry
 
+io.github.arcar-org/arcar-mcp
+
 ---
 
-## 🧠 Casos de uso
+## 🌐 Endpoint remoto
 
-Este servidor MCP permite:
+Transporte: Server-Sent Events (SSE)
 
-- Asistentes automotrices con IA
-- Agentes de búsqueda de vehículos
-- Integraciones con marketplaces
-- Herramientas de investigación automotriz
-- Experiencias conversacionales de búsqueda
+https://nave.q2bot.com/mcp/arcar-org
+
+---
+
+## 🛠 Herramientas disponibles
+
+### 🔎 Búsqueda
+
+Permite hacer una búsqueda general de los vehículos publicados en arcar.org.
 
 ---
 
 ## 🏗 Arquitectura
 
 - Base de datos: arcar.org
-- Transporte: Server-Sent Events (SSE)
 - Protocolo: Model Context Protocol (MCP)
-- Versionado mediante MCP Registry
-
----
-
-## 🔐 Seguridad
-
-Actualmente el acceso es público.
-
-En futuras versiones se podrá incorporar:
-
-- Limitación de tasa (rate limiting)
-- Autenticación
-- Claves de acceso
+- Transporte: SSE
+- Versionado: SemVer
+- Acceso: Público (sin autenticación)
 
 ---
 
 ## 📌 Versionado
 
-Se utiliza versionado semántico:
+Versión actual: 1.0.2
 
-- 1.0.0 → Publicación inicial
-- 1.0.2 → Publicación inicial con mejoras
+- 1.0.0 → Primera publicación en el MCP Registry
+- 1.0.1 → Ajustes de configuración
+- 1.0.2 → Mejoras internas
 
 ---
 
