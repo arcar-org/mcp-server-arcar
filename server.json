@@ -6,17 +6,74 @@
   "sourceUrl": "https://github.com/arcar-org/mcp-server-arcar",
   "description": "Servidor MCP para integraciones con arcar.org",
   "homepage": "https://www.arcar.org",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "license": "MIT",
   "capabilities": {
     "resources": {},
-    "tools": {},
+    "tools": {
+      "Buscar Vehiculos": {
+        "description": "Búsqueda general de vehículos por término libre (marca, modelo o características)",
+        "parameters": {
+          "searchTerm": {
+            "type": "string",
+            "description": "Término de búsqueda para filtrar vehículos"
+          }
+        }
+      },
+      "Obtener Vehiculo por ID": {
+        "description": "Obtiene los detalles completos de un vehículo específico por su ID numérico",
+        "parameters": {
+          "vehicleId": {
+            "type": "number",
+            "description": "ID numérico del vehículo"
+          }
+        }
+      },
+      "Vehiculos Destacados": {
+        "description": "Lista los vehículos destacados/premium actualmente en el catálogo"
+      },
+      "Vehiculos Recientes": {
+        "description": "Obtiene los vehículos más recientemente publicados",
+        "parameters": {
+          "cantidad": {
+            "type": "number",
+            "description": "Cantidad de vehículos a devolver (1-20)"
+          }
+        }
+      },
+      "Vehiculos por Marca": {
+        "description": "Filtra vehículos por marca (ej: Ford, Chevrolet, Peugeot, BMW)",
+        "parameters": {
+          "marca": {
+            "type": "string",
+            "description": "Nombre de la marca del vehículo"
+          }
+        }
+      },
+      "Vehiculos por Rango de Precio": {
+        "description": "Filtra vehículos por rango de precio y moneda (USD o $ pesos argentinos)",
+        "parameters": {
+          "moneda": {
+            "type": "string",
+            "description": "Moneda: USD o $"
+          },
+          "precioMinimo": {
+            "type": "number",
+            "description": "Precio mínimo del rango"
+          },
+          "precioMaximo": {
+            "type": "number",
+            "description": "Precio máximo del rango"
+          }
+        }
+      }
+    },
     "prompts": {}
   },
   "remotes": [
     {
       "type": "sse",
-      "url": "https://nave.q2bot.com/mcp/arcar.org"
+      "url": "https://nave.q2bot.com/mcp/arcar-org"
     }
   ],
   "security": {
